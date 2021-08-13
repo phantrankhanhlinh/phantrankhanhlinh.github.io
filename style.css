@@ -1,0 +1,61 @@
+div[id="thema"] {
+    border: 1px solid black;
+    background-color: #fbe8d3;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 50px;
+    width: fit-content;
+    padding: 50px;       
+}
+
+table, td, th {
+    border: 1px solid black;
+    border-style: groove;
+    border-collapse: collapse;
+    padding: 20px;
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fbe8d3;
+}
+
+p {
+    text-align: justify;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    font-size: 18px;
+    background-color: #FCD8D4;
+    font-weight: bolder;
+}
+
+button:hover {
+    background-color: #F5C6AA;
+}
+
+input {
+    height:30px;
+    font-size:18pt;
+}
+
+@media (min-width: 600px) {
+    body {
+        background-color: rgb(255, 253, 253);
+    }
+}
+
+@media (max-width: 599px) {
+    body {
+        background-color: rgb(196, 196, 253);
+    }
+}
+
